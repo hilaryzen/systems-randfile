@@ -3,3 +3,6 @@ all: randfile.o
 
 randfile.o: randfile.c
 	gcc -c randfile.c
+
+run:
+	./program
